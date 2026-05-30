@@ -1,71 +1,165 @@
-# ⚡ AI Resume Builder
+# 🚀 AI-Powered Resume Builder
 
-React + Claude AI se bana ek professional resume builder.
+A modern and responsive web application that helps users create professional resumes quickly and efficiently. The platform provides an intuitive interface for entering personal, educational, and professional details with real-time preview and PDF export functionality.
 
-## Features
-- 📝 Multi-section form (Personal, Summary, Experience, Education, Skills)
-- ✨ AI-powered summary generation using Claude API
-- 👁️ Real-time live preview
-- 🎨 4 templates (Classic, Dark Elite, Warm, Ultra Minimal)
-- 📄 PDF download with html2pdf.js
-- 🔤 Quick-add skill suggestions
+---
 
-## Setup (5 minutes)
+## ✨ Features
 
-### 1. Install dependencies
+✅ Personal Information Management
+
+✅ Professional Summary Section
+
+✅ Education Management
+
+✅ Experience Management
+
+✅ Skills Management
+
+✅ Multiple Resume Templates
+
+✅ Real-Time Resume Preview
+
+✅ PDF Resume Download
+
+✅ Responsive User Interface
+
+✅ Modern & Clean Design
+
+---
+
+## 📸 Application Preview
+
+### 📝 Resume Creation
+
+* Enter Personal Details
+* Add Education Information
+* Add Work Experience
+* Manage Skills
+* Create Professional Resume
+
+### 👀 Live Preview
+
+* Real-Time Resume Updates
+* Professional Layout
+* Multiple Template Support
+
+### 📄 Export
+
+* Download Resume as PDF
+* Print-Ready Format
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology     | Usage                |
+| -------------- | -------------------- |
+| ⚛️ React.js    | Frontend Development |
+| ⚡ Vite         | Build Tool           |
+| 🎨 CSS3        | Styling              |
+| 🌐 HTML5       | Structure            |
+| 📜 JavaScript  | Functionality        |
+| 📄 html2pdf.js | PDF Generation       |
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── PersonalForm.jsx
+│   ├── SummaryForm.jsx
+│   ├── ExperienceForm.jsx
+│   ├── EducationForm.jsx
+│   ├── SkillsForm.jsx
+│   ├── TemplateSelector.jsx
+│   └── ResumePreview.jsx
+│
+├── pages/
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/aayucreator/ai-resume-builder.git
+```
+
+### 2️⃣ Navigate to Project
+
+```bash
+cd ai-resume-builder
+```
+
+### 3️⃣ Install Dependencies
+
 ```bash
 npm install
 ```
 
-### 2. API Key add karo
-`src/components/SummaryForm.jsx` file kholo aur yeh line dhundho:
-```js
-const ANTHROPIC_API_KEY = 'YOUR_API_KEY_HERE'
-```
-Apna Anthropic API key paste karo.
+### 4️⃣ Start Development Server
 
-API key yahan milega: https://console.anthropic.com/
-
-### 3. Run karo
 ```bash
 npm run dev
 ```
-Browser mein khulega: http://localhost:3000
 
-### 4. Build (production ke liye)
-```bash
-npm run build
-```
+### 5️⃣ Open Browser
 
-## Project Structure
-```
-src/
-├── components/
-│   ├── Sidebar.jsx         # Left navigation
-│   ├── PersonalForm.jsx    # Personal details form
-│   ├── SummaryForm.jsx     # AI summary generator
-│   ├── ExperienceForm.jsx  # Work experience form
-│   ├── EducationForm.jsx   # Education form
-│   ├── SkillsForm.jsx      # Skills + quick-add
-│   ├── TemplateSelector.jsx # Template chooser
-│   └── ResumePreview.jsx   # Live preview + PDF download
-├── App.jsx                 # Main app + state management
-├── App.css                 # Shared styles
-└── index.css               # Global CSS variables
+```text
+http://localhost:5173
 ```
 
-## Tech Stack
-- React 18 + Vite
-- Claude API (claude-sonnet-4-20250514)
-- html2pdf.js for PDF generation
-- Pure CSS (no UI library needed)
+---
 
-## ⚠️ Note
-Production mein API key `.env` file mein rakho:
-```
-VITE_ANTHROPIC_API_KEY=sk-ant-...
-```
-Aur `SummaryForm.jsx` mein:
-```js
-const ANTHROPIC_API_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY
-```
+## 🎯 Key Functionalities
+
+🔹 Multi-Step Resume Builder
+
+🔹 Professional Resume Templates
+
+🔹 Live Resume Preview
+
+🔹 Dynamic Form Management
+
+🔹 PDF Export Support
+
+🔹 User-Friendly Interface
+
+---
+
+## 🔮 Future Enhancements
+
+* 🤖 AI-Based Resume Suggestions
+* 📊 ATS Score Analysis
+* 🎨 Additional Resume Templates
+* ☁️ Cloud Storage Integration
+* 📱 Enhanced Mobile Experience
+
+---
+
+## 👩‍💻 Author
+
+**Aayushi Shree**
+
+🎓 Master of Computer Applications (MCA)
+
+🏫 Amity University
+
+📧 [shreeaayushi2@gmail.com](mailto:shreeaayushi2@gmail.com)
+
+🔗 LinkedIn: https://linkedin.com/in/shreeaayushi
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub.
